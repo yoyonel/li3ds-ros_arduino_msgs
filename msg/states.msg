@@ -7,5 +7,6 @@ bool state_flash	#
 bool state_boot		#
 
 uint16 num_trigs_for_pics	# Nombres de captures triggees vers les CamLights
+uint64 camlight_shot_ms		#
 
 string gprmc
