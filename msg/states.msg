@@ -6,7 +6,8 @@ bool state_flash	#
 #
 bool state_boot		#
 
-uint16 num_trigs_for_pics	# Nombres de captures triggees vers les CamLights
-uint64 camlight_shot_ms		#
+uint16 num_trigs_for_pics			# Nombres de captures triggees vers les CamLights
+uint64 camlight_shot_ms				#
+uint16 camlight_time_between_pics	# Delay effectif entre 2 captures d'images
 
 string gprmc
