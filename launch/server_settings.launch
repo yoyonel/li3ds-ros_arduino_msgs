@@ -1,0 +1,17 @@
+<!-- -*- mode: XML -*- -->
+<!-- start 
+     $Id$
+  -->
+
+<launch>
+
+  <!-- start -->
+  <!-- ros_args.launch -->
+  <arg name="camlight_time_between_pics" default="1500" doc=""/>
+
+  <node pkg="arduino_msgs" type="server.py" name="arduino_settings_server">
+  	<param name="camlight_time_between_pics" value="$(arg camlight_time_between_pics)"/>
+  </node>
+
+</launch>
+

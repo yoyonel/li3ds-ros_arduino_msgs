@@ -23,3 +23,10 @@ generate_dynamic_reconfigure_options(
 catkin_package(
   CATKIN_DEPENDS message_runtime std_msgs dynamic_reconfigure
 )
+
+## Mark other files for installation (e.g. launch and bag files, etc.)
+install(FILES
+  launch/server_settings.launch
+  # 
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
