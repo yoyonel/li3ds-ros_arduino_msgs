@@ -7,3 +7,5 @@ bool state_flash	#
 #
 bool state_boot		#
 bool state_halt
+#
+# uint16	time_between_pics	#
